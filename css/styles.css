@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 1128px;
+    margin: 24px auto;
+}
+
+.gallery-link {
+    flex: 0 0 calc(33.33% - 10px);
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+}
